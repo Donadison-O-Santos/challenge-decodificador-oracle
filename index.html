@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador e codificador</title>
+    <link rel="stylesheet" href="/estilo/style.css">
+    <link rel="shortcut icon" href="/imagens/alura.jpg" type="alura">
+</head>
+<body>
+     <main class="main container">
+         <header class="cabecalho">
+           <img src="/imagens/Logo-Vector.png" alt="alura">
+         </header>
+         <div class="container-input">
+            <div class="input">
+              <textarea id="input-texto" placeholder="Digite seu texto aqui..."></textarea>
+              <p><b>ATENÇÃO</b>: Apenas letras minúsculas e sem acento! Para descriptografar é só copiar e depois clicar no mesmo.</p>
+            </div>
+
+        <div id="output">
+            <img src="/imagens/boneco.png" alt="boneco">
+            <h2>Nenhuma mensagem encontrada</h2>
+            <span>Digite um texto que você deseja criptografar ou descriptografar</span>
+            <button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>
+          </div>
+        </div>
+
+         <div class="buttons">
+             <div class="container-btn">
+                <button onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+             </div>
+         </div>
+     
+     </main>
+
+     <footer class="rodape">
+        <div class="icons">
+            <a href="https://www.instagram.com/donadison_dev/"><ion-icon name="logo-instagram"></ion-icon></a>
+            <a href="https://www.linkedin.com/in/donadison-o-santos/"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/Donadison-O-Santos"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <h3>Desenvolvido por Donadison Santos</h3>
+     </footer>
+
+
+     <script src="/challenger/script.js"></script>
+     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+</html>
