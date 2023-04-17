@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root{
+    --corprincipal: #ff1b1b;
+    --corsegundaria:#caf9ff;
+    --corFundo:#f5d5a3;
+    --corIcon:#ffffff;
+    --corRodape:#754B07;
+    --corIcons: #0CF7F7
+}
+
+body{
+    background: var(--corFundo);
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    
+}
+
+.cabecalho h1{
+    color: var(--c);
+}
+
+.cabecalho img{
+    max-width:70px;
+    max-height:70px;
+}
+
+.container-input{
+    display: flex;
+    justify-content: space-between;
+    padding: 2% 0 0 4%;
+}
+
+.container-input .input{
+    width: 500px;
+    height: 330px;
+}
+
+.container-input p{
+    margin-top: 9%;
+}
+
+#input-texto{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: var(--cortitulo);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: lowercase;
+}
+
+.input p{
+    margin-top: 1%;
+    margin-left: 14%;
+}
+
+.input b{
+    color: var(--corRodape);
+}
+
+#output{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px -1px 10px #434343;
+    border-radius: 20px;
+    width: 355px;
+    height: 480px;
+    margin-right: 3%;
+    background: #f7ba5977;
+}
+
+#output h2{
+    text-align: center;
+    font-size: 25px;
+    color: var(--cortitulo);
+}
+
+#output span{
+    font-size: 16px;
+    text-align: center;
+}
+
+#output img{
+    max-width:300px;
+    max-height:300px;
+    margin-top: 4%;
+    margin-left: 5%;
+}
+
+#output{
+    margin-top: -2%;
+}
+
+
+.btn-criptografar{
+    border: 2.5px solid var(--corRodape);
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000000;
+    width: 450px;
+    height: 50px;
+    margin-left: 7%;
+    cursor: pointer;
+    background: var(--corFundo);
+    font-weight: bold;
+}
+
+.btn-criptografar:hover{
+    color: var(--corFundo);
+    transition: 0.7s all;
+}
+
+.container-btn button:hover{
+    border: 5px solid var(--corFundo);
+    transition: 0.7s all;
+    background: var(--corRodape);
+}
+
+.btn-descriptografar{
+    border: 2.5px solid var(--corRodape);
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000000;
+    width: 450px;
+    height: 50px;
+    margin-left: 2%;
+    cursor: pointer;
+    background: var(--corFundo);
+    font-weight: 800;
+    justify-items: center;
+}
+
+.btn-descriptografar:hover{
+    color: var(--corFundo);
+    transition: 0.7s all;
+}
+
+.btn-copiar {
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 2%;
+    cursor: pointer;
+  }
+
+.btn-copiar{
+    border: 2.5px solid var(--corRodape);
+    border-radius: 20px;
+    text-decoration: none;
+    color: #000000;
+    width: 150px;
+    height: 50px;
+    margin-bottom: 10%;
+    margin-left: 30%;
+    cursor: pointer;
+    font-weight: 800;
+    background: var(--corFundo);
+}
+    
+.btn-copiar:hover{
+    border: 5px solid var(--corFundo);
+    transition: 0.7s all;
+    background: var(--corRodape);
+    color: var(--corFundo)
+}
+
+.rodape{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: var(--corRodape);
+    color: #fff;
+    padding: 9px;
+    text-align: center;
+}
+
+.rodape h3{
+    font-size: 16px;
+    color: var(--corIcon);
+}
+
+.icons ion-icon{
+    width: 30px;
+    height: 25px;
+    color: var(--corIcon)
+}
+
+.icons ion-icon:hover{
+    color: var(--corFundo);
+}
+
